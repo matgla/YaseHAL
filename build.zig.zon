@@ -3,8 +3,12 @@
     .version = "0.0.1",
     .paths = .{
         "source",
+        "build.zig",
+        "build.zig.zon",
     },
     .dependencies = .{
+        .interface = .{ .path = "interface" },
+        .examples = .{ .path = "examples" },
         .string = .{
             .url = "https://github.com/JakubSzark/zig-string/archive/refs/heads/master.tar.gz",
             .hash = "1220f5c17a0831fd955d885b409dafe1f972d2f25c6a98173cce6ca67a91c7971813",

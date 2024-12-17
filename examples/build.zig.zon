@@ -1,0 +1,10 @@
+.{
+    .name = "yasehal_examples",
+    .version = "0.0.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+    }
+}
